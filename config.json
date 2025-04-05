@@ -2,7 +2,7 @@
     "version": 3,
     "language": "Dyalog APL",
     "slug": "dyalog-apl",
-    "active": "false",
+    "active": false,
     "blurb": "Dyalog is the modern, multi-paradigm, batteries-included implementation of the original array-oriented programming language APL. Its uses range from a powerful desktop calculator to implementing commercial finance, scientific computing and simulation software packages.",
     "online_editor": {
         "indent_style": "space",
