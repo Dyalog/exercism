@@ -1,0 +1,21 @@
+
+{
+  "authors": [
+    "jonocarroll"
+  ],
+    "contributors": [
+	
+  ],
+  "files": {
+    "solution": [
+      "acronym.dyalog"
+    ],
+    "test": [
+      "test_acronym.dyalog"
+    ],
+    "example": [
+      ".meta/example.dyalog"
+    ]
+  },
+    "blurb": "Convert a long phrase to its acronym."
+}
