@@ -1,0 +1,9 @@
+ result←Test_HelloWorld;Assert
+
+ Assert←{⍺←'assertion failure' ⋄ 0∊⍵:⍺ ⎕SIGNAL 8 ⋄ shy←0}
+
+⍝ basic test
+ Assert'Hello, World!'≡HelloWorld⍬
+
+ result←'All tests passed.'
+
