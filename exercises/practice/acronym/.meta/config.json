@@ -8,13 +8,13 @@
   ],
   "files": {
     "solution": [
-      "acronym.dyalog"
+      "Acronym.aplf"
     ],
     "test": [
-      "test_acronym.dyalog"
+      "Test_Acronym.aplf"
     ],
     "example": [
-      ".meta/example.dyalog"
+      ".meta/example.aplf"
     ]
   },
     "blurb": "Convert a long phrase to its acronym."
