@@ -1,7 +1,5 @@
  result←Test_HelloWorld;Assert
 
- 2⎕FIX'./Hello-World.aplf'
-
  Assert←{⍺←'assertion failure' ⋄ 0∊⍵:⍺ ⎕SIGNAL 8 ⋄ shy←0}
 
 ⍝ basic test
