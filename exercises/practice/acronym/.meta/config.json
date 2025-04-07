@@ -1,0 +1,21 @@
+
+{
+  "authors": [
+    "jonocarroll"
+  ],
+    "contributors": [
+    "rikedyp"
+  ],
+  "files": {
+    "solution": [
+      "Acronym.aplf"
+    ],
+    "test": [
+      "Test_Acronym.aplf"
+    ],
+    "example": [
+      ".meta/example.aplf"
+    ]
+  },
+    "blurb": "Convert a long phrase to its acronym."
+}
