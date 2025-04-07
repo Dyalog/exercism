@@ -1,5 +1,7 @@
  result←Test_Acronym;Assert
 
+ 2⎕FIX'./Acronym.aplf'
+
  Assert←{⍺←'assertion failure' ⋄ 0∊⍵:⍺ ⎕SIGNAL 8 ⋄ shy←0}
 
 ⍝ ignoring punctuation and casing?
