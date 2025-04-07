@@ -18,6 +18,9 @@ Exercise Test_Exercise
 
 Changes made using the Dyalog editor (e.g. with `)ED'Exercise'`) will be automatically updated in the file.
 
+> **NOTE:**
+    User commands (expressions that begin with a right square bracket `]`) and system commands (that begin with a right round parenthesis `)`) cannot be used inside APL functions. They are tools for use when developing code in Dyalog. They can be used in the session but not inside APL code itself.
+
 Running the test function will error on the first failure, and should suspend in the tracer where you can view the test case and attempt to fix your solution.
 
 ```
@@ -27,5 +30,9 @@ Test_HelloWorld[5] Assert'Hello, World!'≡HelloWorld ⍬
                    ∧
 ```
 
-> **NOTE:**
-    User commands (expressions that begin with a right square bracket `]`) cannot be used inside APL functions. They are tools for use when developing code in Dyalog. The executable equivalent of the above is `⎕SE.Link.Create # '/path/to/exercise'`.
+When all tests have passed, the test function returns a character vector:
+
+```
+      Test_HelloWorld
+All tests passed.
+```
